@@ -24,6 +24,13 @@ spring:
 server:
   port: 8080
 
+# Gemini API 配置
+gemini:
+  api-key: AQ.XXXXXX
+  api-url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+  proxy-host: "192.168.88.7"
+  proxy-port: 808
+
 jwt:
   secret: mySecretKeyForJWTTokenGenerationAndValidation123456789
   expiration: 86400000
